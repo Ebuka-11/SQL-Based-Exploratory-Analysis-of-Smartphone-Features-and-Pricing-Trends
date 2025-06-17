@@ -1,0 +1,6 @@
+SELECT 
+    has_5g, 
+    ROUND(AVG(price), 2) AS avg_price, 
+    COUNT(*) AS count
+FROM smartphones
+GROUP BY has_5g;
