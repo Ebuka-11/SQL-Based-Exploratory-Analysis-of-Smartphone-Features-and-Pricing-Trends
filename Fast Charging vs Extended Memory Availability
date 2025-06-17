@@ -1,0 +1,6 @@
+SELECT 
+    fast_charging_available, 
+    extended_memory_available, 
+    COUNT(*) AS count
+FROM smartphones
+GROUP BY fast_charging_available, extended_memory_available;
