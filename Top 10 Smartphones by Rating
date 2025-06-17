@@ -1,0 +1,9 @@
+SELECT 
+    model, 
+    brand_name, 
+    rating, 
+    price
+FROM smartphones
+WHERE rating IS NOT NULL
+ORDER BY rating DESC, price DESC
+LIMIT 10;
