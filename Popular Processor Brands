@@ -1,0 +1,7 @@
+SELECT 
+    processor_brand, 
+    COUNT(*) AS num_models
+FROM smartphones
+WHERE processor_brand IS NOT NULL
+GROUP BY processor_brand
+ORDER BY num_models DESC;
