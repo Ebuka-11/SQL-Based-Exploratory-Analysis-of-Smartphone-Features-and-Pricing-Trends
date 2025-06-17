@@ -1,0 +1,5 @@
+SELECT 
+    battery_capacity, 
+    price
+FROM smartphones
+WHERE battery_capacity IS NOT NULL;
