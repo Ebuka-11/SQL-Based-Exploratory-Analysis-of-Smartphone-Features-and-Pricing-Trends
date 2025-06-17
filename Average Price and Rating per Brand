@@ -1,0 +1,8 @@
+SELECT 
+    brand_name, 
+    ROUND(AVG(price), 2) AS avg_price, 
+    ROUND(AVG(rating), 2) AS avg_rating,
+    COUNT(*) AS num_models
+FROM smartphones
+GROUP BY brand_name
+ORDER BY avg_price DESC;
