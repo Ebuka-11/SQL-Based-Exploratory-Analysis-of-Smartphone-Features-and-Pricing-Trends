@@ -1,6 +1,6 @@
 # Smartphone Dataset SQL Analysis
 
-This project uses SQL to analyze a cleaned dataset of smartphones. The goal is to extract meaningful insights related to pricing, features, and performance.
+This project uses SQL to analyze a dataset of smartphones. The goal is to extract meaningful insights related to pricing, features, and performance.
 
 ---
 
